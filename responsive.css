@@ -1,0 +1,559 @@
+/* responsive_________________________________ */
+
+@media only screen and (max-width: 1220px) {
+
+    header {
+        float: left;
+        width: 100%;
+       
+
+        border-bottom: none;
+       
+      
+    }
+
+    .header-top {
+        float: left;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .header-social ul {
+        float: left;
+        width: 100%;
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+       
+
+
+
+    }
+
+    .header-social ul li {
+        margin-left: 10px;
+
+    }
+
+    .header-top ul li {
+        margin-right: 5px;
+    }
+
+    .header-top ul li:last-child {
+        margin-right: 0;
+    }
+
+    .header-top-content {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        margin-top: -13px;
+       
+    }
+
+
+    .fright {
+        margin-right: 20px;
+    }
+
+    .main-menu-links {
+        display: flex;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .main-menu-links a {
+
+        width: 50%;
+        float: left;
+        height: 48px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        ;
+        border-radius: 3px;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .main-menu-links a:hover {
+        opacity: .5;
+        color: rgb(255, 255, 255);
+    }
+
+
+
+    .profile-info {
+        float: left;
+        width: 100%;
+    }
+
+    .profile-info ul {
+        float: left;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+
+
+    /* main______________________________________ */
+    main {
+        float: left;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .bio-area {
+        float: left;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        padding: 0 15px;
+    }
+
+    .photo {
+        border-radius: 10px;
+    }
+
+    .left {
+        border-radius: 10px;
+        margin-top:50px ;
+    }
+
+    .middle {
+        text-align: center;
+    }
+
+    .middle h3 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #work-center{display: flex;
+        flex-direction: column;
+    text-align: center;
+align-items: center;}
+
+
+
+
+
+    /* footer_________________________________________ */
+    footer {
+        float: left;
+        width: 100%;
+        padding: 0 100px;
+        margin-top: 100px;
+        border-top: 1px solid rgb(2, 2, 2);
+    }
+
+    footer .footer-links-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .copyright {
+        float: right;
+    }
+
+    .item-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+    .item-1 ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .item-1 ul li {
+        margin-left: 10px;
+    }
+
+    .item {
+        margin-top: 20px;
+    }
+
+
+
+    /* ABOUT_______________________________________ */
+    .single-service {
+        text-align: center;
+    }
+
+    .about-bottom {
+        width: 100%;
+        float: left;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 30px;
+        grid-row-gap: 30px;
+    }
+
+    .single-review {
+        text-align: center;
+    }
+
+    .reference {
+        text-align: center;
+        font-size: 30px;
+        border-bottom: 1px solid rgb(2, 2, 2);
+    }
+
+    /* .reference span {
+       
+        width: 100%;
+        float: left;
+    } */
+
+    .aabout {
+        text-align: center;
+        border-top: 1px solid rgb(2, 2, 2);
+        width: 100%;
+        float: left;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    /* _____________________________work */
+
+
+    .workk a:hover {
+        opacity: .5;
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        background: linear-gradient(90deg, rgba(158, 168, 170, 0.322) 15%, rgba(1, 69, 255, 0.486) 100%);
+        font-family: 'Chivo Mono', monospace;
+    }
+
+    header {
+        float: left;
+        width: 100%;
+        height: 150px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-bottom: none;
+
+
+        color: #0076dd;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .header-top {
+        float: left;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .header-social {
+        float: left;
+        width: 100%;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-social ul {
+        float: left;
+        width: 100%;
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+
+
+
+
+    }
+
+    .header-social ul li {
+        float: left;
+        width: 100%;
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    /* .header-top ul li {} */
+
+    .header-top ul li:last-child {
+        margin-right: 0;
+    }
+
+    .header-top-content {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-left: 0;
+
+    }
+
+
+    .fright {
+        float: left;
+        width: 100%;
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .main-menu-links {
+        display: flex;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .main-menu-links a {
+
+        width: 100%;
+        float: left;
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        font-size: 12px;
+        border-radius: 3px;
+        border: none;
+
+    }
+
+    .main-menu-links a:hover {
+        opacity: .5;
+        color: rgb(255, 255, 255);
+    }
+
+
+
+    .profile-info {
+        float: left;
+        width: 100%;
+    }
+
+    .profile-info ul {
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+
+
+    /* main______________________________________ */
+    main {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .bio-area {
+        float: left;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .photo {
+        border-radius: 10px;
+    }
+
+    .left {
+        width: 100%;
+       margin-left: 2px;
+       margin-right: 2px;
+    }
+
+    .middle {
+        text-align: center;
+    }
+
+    .middle h3 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+
+
+
+
+    /* footer_________________________________________ */
+    footer {
+        float: left;
+        width: 100%;
+        padding: 0 100px;
+        margin-top: 50px;
+        border-top:none ;
+
+    }
+
+    footer .footer-links-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .copyright {
+        float: right;
+    }
+
+    .item-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+
+    .item-1 ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    .item-1 ul li {
+        margin-left: 10px;
+    }
+
+    .item {
+        margin-top: 20px;
+    }
+
+    #item-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+
+    /* ABOUT_______________________________________ */
+    .single-service {
+        text-align: center;
+    }
+
+    .about-bottom {
+        width: 100%;
+        float: left;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .single-review {
+        text-align: center;
+    }
+
+    .reference {
+        text-align: center;
+        font-size: 30px;
+
+    }
+
+    /* .reference span {
+       
+        width: 100%;
+        float: left;
+    } */
+
+    .aabout {
+        text-align: center;
+
+        width: 100%;
+        float: left;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    /* _____________________________work */
+
+
+    .workk a:hover {
+        opacity: .5;
+        color: rgb(255, 255, 255);
+    }
+
+    #work-center {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        float: left !important;
+    }
+
+
+    /* _____________________________contac */
+    #mapp {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        align-items: center;
+    }
+    iframe { display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        align-items: center;}
+}

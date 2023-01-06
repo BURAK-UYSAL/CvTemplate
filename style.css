@@ -1,0 +1,250 @@
+body {
+    background: linear-gradient(90deg, rgba(158, 168, 170, 0.322) 15%, rgba(1, 69, 255, 0.486) 100%);
+    font-family: 'Chivo Mono', monospace;
+}
+
+header {
+    float: left;
+    width: 100%;
+    height: 150px;
+
+    padding-top: 50px;
+    color: #0076dd;
+    border-bottom: 1px solid rgb(2, 2, 2);
+}
+
+.header-top {
+    float: left;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 1fr 450px;
+
+}
+
+.header-social ul {
+    float: left;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+
+
+
+}
+
+.header-social ul li {
+    margin-left: 10px;
+
+}
+
+.header-top ul li {
+    margin-right: 5px;
+}
+
+.header-top ul li:last-child {
+    margin-right: 0;
+}
+
+.header-top-content {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -13px;
+    padding-left: 60px;
+}
+
+
+.fright {
+    margin-right: 20px;
+}
+
+.main-menu-links {
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.main-menu-links a {
+
+    width: 50%;
+    float: left;
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    ;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-menu-links a:hover {
+    opacity: .5;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.profile-info {
+    float: left;
+    width: 100%;
+}
+
+.profile-info ul {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+
+/* main______________________________________ */
+main {
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.bio-area {
+    float: left;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 1fr 1fr;
+    grid-column-gap: 20px;
+    padding: 0 100px;
+}
+
+.photo {
+    border-radius: 10px;
+}
+
+.left {
+    border-radius: 10px;
+}
+
+.middle {
+    text-align: center;
+}
+
+.middle h3 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* footer_________________________________________ */
+footer {
+    float: left;
+    width: 100%;
+    padding: 0 100px;
+    margin-top: 100px;
+    border-top: 1px solid rgb(2, 2, 2);
+}
+
+footer .footer-links-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.copyright {
+    float: right;
+}
+
+.item-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.item-1 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.item-1 ul li {
+    margin-left: 10px;
+}
+
+.item {
+    margin-top: 20px;
+}
+
+
+
+/* ABOUT_______________________________________ */
+.single-service {
+    text-align: center;
+    border: 3px solid;
+}
+.service-title{border-bottom: 5px solid;}
+
+.about-bottom {
+    width: 100%;
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.single-review {
+    text-align: center;
+    border: 1px solid;
+}
+
+.reference {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(2, 2, 2);
+}
+
+/* .reference span {
+   
+    width: 100%;
+    float: left;
+} */
+
+.aabout {
+    text-align: center;
+    border-top: 1px solid rgb(2, 2, 2);
+    width: 100%;
+    float: left;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* _____________________________work */
+
+
+.workk a:hover {
+    opacity: .5;
+    color: rgb(255, 255, 255);
+}
+iframe{width: 100%;}
+
+
+
+
+
+
+
+
+
+
