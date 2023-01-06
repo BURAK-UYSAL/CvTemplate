@@ -193,7 +193,7 @@ footer .footer-links-wrapper {
 /* ABOUT_______________________________________ */
 .single-service {
     text-align: center;
-    border: 3px solid;
+    border: 1px solid;
 }
 .service-title{border-bottom: 5px solid;}
 
@@ -201,13 +201,14 @@ footer .footer-links-wrapper {
     width: 100%;
     float: left;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
 }
 
 .single-review {
     margin-top: 20px;
     text-align: center;
     border: 1px solid;
+    border-radius: 50px;
 }
 
 .reference {
