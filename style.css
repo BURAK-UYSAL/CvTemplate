@@ -34,6 +34,11 @@ header {
 
 }
 
+.header-social ul :hover {
+    opacity: .9;
+    color: rgb(12, 12, 12);
+}
+
 .header-social ul li {
     margin-left: 10px;
 
@@ -195,13 +200,16 @@ footer .footer-links-wrapper {
     text-align: center;
     border: 1px solid;
 }
-.service-title{border-bottom: 5px solid;}
+
+.service-title {
+    border-bottom: 5px solid;
+}
 
 .about-bottom {
     width: 100%;
     float: left;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .single-review {
@@ -239,14 +247,7 @@ footer .footer-links-wrapper {
     opacity: .5;
     color: rgb(255, 255, 255);
 }
-iframe{width: 100%;}
 
-
-
-
-
-
-
-
-
-
+iframe {
+    width: 100%;
+}
